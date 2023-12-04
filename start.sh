@@ -1,3 +1,5 @@
+pkill -f "^pnpm"
+
 xtimestamp() {
   date +"[%Y-%m-%d %H:%M:%S]"
 }

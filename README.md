@@ -355,5 +355,3 @@ If you find this project helpful and can afford it, you can give me a little sup
 	</div>
 </div>
 
-## License
-MIT © [ChenZhaoYu]
