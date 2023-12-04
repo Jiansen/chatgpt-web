@@ -28,7 +28,7 @@ export interface AppState {
 
 export function defaultSetting(): AppState {
   const language = languageMap[navigator.language]
-  return { siderCollapsed: false, theme: 'light', language }
+  return { siderCollapsed: false, theme: 'dark', language }
 }
 
 export function getLocalSetting(): AppState {
