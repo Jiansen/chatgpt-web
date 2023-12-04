@@ -1,4 +1,5 @@
-pkill -f "^pnpm"
+ps -axf | grep pnpm | grep -v grep | awk '{print $1}' | xargs kill -9
+
 
 xtimestamp() {
   date +"[%Y-%m-%d %H:%M:%S]"
